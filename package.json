@@ -1,0 +1,16 @@
+{
+  "name": "webpack-extensions-resolver-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:a": "node dist/platformA/main.bundle.js",
+    "start:b": "node dist/platformB/main.bundle.js",
+    "build:a": "PLATFORM=platformA webpack",
+    "build:b": "PLATFORM=platformB webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
